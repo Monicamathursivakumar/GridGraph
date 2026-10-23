@@ -6,7 +6,6 @@ GridGraph is an enterprise GIS workspace for understanding the physical structur
 
 It combines a satellite basemap, inferred network topology, utility asset metadata, and environmental hazard overlays in one visual operating surface. The goal is to help utility engineers move from a broad network view to a specific asset, feeder, or risk area without switching between disconnected tools.
 
-> **Project status:** GridGraph is currently a frontend prototype with representative network data. The architecture and workflows described below define the path to a production-ready digital twin.
 
 ---
 
