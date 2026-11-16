@@ -1,221 +1,466 @@
-# GridGraph
 
-GridGraph is a utility-focused GIS dashboard for exploring a power distribution network as a structural digital twin. The interface brings together network topology, asset metadata, hazard overlays, and inspection priorities into a single operational view built for utilities and grid planning teams.
+# GridGraph – AI-Powered Geospatial Intelligence and Digital Twin for Electrical Power Distribution Networks
 
-This repository currently contains:
-- a React + TypeScript frontend dashboard for the GIS experience
-- a Python backend for network analysis, hazard scoring, and API access
-- source-documented Tambaram infrastructure data and model-training materials
-- generated output images for the project
+GridGraph is an AI-powered geospatial platform designed to detect electrical power infrastructure, infer potential network connectivity, and visualize distribution networks through an interactive GIS dashboard.
 
-## Overview
+The project combines computer vision, graph neural networks, geospatial analysis, and digital twin concepts to support power infrastructure mapping, network analysis, and disaster-risk assessment.
 
-GridGraph is designed to help engineers and analysts:
-- understand where poles, transformers, and substations sit in the network
-- review inferred feeder connectivity and confidence levels
-- compare asset risk with flood and cyclone exposure zones
-- prioritize inspection work and identify high-risk assets quickly
-- search locations and assets without leaving the map view
+---
 
-The app is modeled around the concept of a digital twin: make risk, topology, and field context visible in the same place instead of splitting them across disconnected tools.
+## 1. Project Overview
 
-## Product vision
+Electrical distribution networks contain several interconnected assets, including substations, transformers, poles, and power lines. However, infrastructure records may be incomplete, outdated, or distributed across multiple datasets.
 
-GridGraph is meant for electric utility operations, GIS analysis, and field inspection planning. It helps users move from a network overview to a specific asset or risk area using a map-first workflow.
+GridGraph aims to address this challenge by integrating geospatial datasets and AI-based methods to:
 
-Core product goals:
-- show the distribution network clearly and professionally
-- make inferred network connections confidence-aware
-- overlay hazards directly onto the network context
-- present inspection priorities using operational KPIs
-- support location and asset search within the map
+- Detect electrical infrastructure from high-resolution satellite imagery.
+- Map power infrastructure using GIS data.
+- Infer potential electrical network connectivity using Graph Attention Networks (GAT).
+- Generate a geospatial representation of the distribution network.
+- Visualize infrastructure and network information through an interactive dashboard.
+- Support flood-risk assessment and infrastructure inspection prioritization.
 
-## Features
+**Study Area:** Tambaram, Tamil Nadu, India.
 
-### Map-first dashboard
-- satellite-style map basemap
-- asset markers for poles, transformers, and substations
-- inferred power-line connections with color-coded confidence levels
-- pan, zoom, and focus controls
-- minimap and scale-bar overlays
-- search suggestions and asset filtering
+**Project Type:** AI + GIS + Deep Learning + Digital Twin.
 
-### Hazard overlays
-- flood-zone polygons
-- cyclone exposure bands
-- toggleable hazard layer controls
-- overlay treatment that preserves geographic context without hiding the network
+---
 
-### Asset and network context
-- asset names, IDs, feeder assignments, and voltage details
-- location-focused search across place names and feeder identifiers
-- map fly-to behavior for results
-- confidence-aware topology presentation
+## 2. Key Features
 
-### Operational analytics
-- KPI cards for total assets, poles, transformers, substations, inferred edges, and high-risk assets
-- inspection-priority table with asset counts and action buttons
-- clear utility-oriented visual system and spacing
+### Geospatial Infrastructure Mapping
+- Visualize electrical infrastructure on an interactive map.
+- Display substations, transformers, and power-line features.
+- Integrate geospatial datasets from multiple sources.
+- Support GeoJSON-based spatial data visualization.
 
-## Tech stack
+### AI-Based Object Detection
+- Use YOLOv11 for detecting electrical infrastructure from satellite imagery.
+- Identify visible infrastructure assets.
+- Generate bounding-box predictions.
+- Convert detected objects into geospatial coordinates.
 
-Frontend:
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- shadcn/ui style primitives
-- Leaflet and React Leaflet
-- Lucide React icons
-- Recharts
+### Network Topology Inference
+- Represent electrical infrastructure as a graph.
+- Use Graph Attention Networks (GAT) to estimate potential connectivity.
+- Analyze relationships between infrastructure assets.
+- Generate candidate network connections for further validation.
 
-Architecture pattern:
-- client-rendered dashboard
-- deterministic synthetic utility network generation
-- map and analytics layer organized around GridMap, MapStage, AnalyticsPanel, and GisHeader
+### Geospatial Risk Analysis
+- Integrate flood-related spatial information.
+- Visualize potential infrastructure exposure.
+- Support risk-based inspection and maintenance planning.
 
-## Repository structure
+### Interactive GIS Dashboard
+- Display infrastructure on an interactive map.
+- Present network statistics and analytics.
+- Visualize asset distribution and network information.
+- Provide a foundation for digital twin development.
+
+---
+
+## 3. System Architecture
 
 ```text
-gridinsight-pro-main/
-|-- README.md
-|-- data set/
-|   |-- DATASET_README.md
-|   |-- INDIAN_POWER_INFRA_SOURCE_REVIEW.md
-|   `-- source data, exports, and extraction scripts
-|-- gridgraph-backend/
-|   |-- gridgraph-backend/
-|   |   |-- gridgraph/
-|   |   |-- tests/
-|   |   `-- requirements.txt
-|   `-- model training/backend.ipynb
-|-- output/
-|   `-- generated image files
-|-- gridinsight-pro-main_frontend/
-|   |-- AGENTS.md
-|   |-- README.md
-|   |-- package.json
-|   |-- bun.lock
-|   |-- bunfig.toml
-|   |-- components.json
-|   |-- vite.config.ts
-|   |-- tsconfig.json
-|   |-- public/
-|   `-- src/
-|       |-- components/gis/
-|       |-- hooks/
-|       |-- lib/
-|       |-- routes/
-|       |-- router.tsx
-|       |-- server.ts
-|       |-- start.ts
-|       `-- styles.css
-`-- .git/
+                  DATA SOURCES
+                       |
+          +------------+-------------+
+          |            |             |
+      OpenStreetMap  REC/BharatMaps  Satellite
+          |            |             Imagery
+          +------------+-------------+
+                       |
+                       v
+              DATA PREPROCESSING
+                       |
+          +------------+-------------+
+          |                          |
+     GIS Processing              Image Processing
+     GeoPandas                    OpenCV
+     Shapely                      Rasterio
+          |                          |
+          v                          v
+   Geospatial Asset Data       YOLOv11 Detection
+          |                          |
+          +------------+-------------+
+                       |
+                       v
+              GRAPH CONSTRUCTION
+                       |
+                       v
+             GAT TOPOLOGY INFERENCE
+                       |
+                       v
+             NETWORK REPRESENTATION
+                       |
+                       v
+              GIS DIGITAL TWIN
+                       |
+                       v
+             INTERACTIVE DASHBOARD
+                React + Leaflet
 ```
 
-## Key frontend files
+**Note:** The diagram represents the intended system workflow. Some AI and topology-inference stages are still under development.
 
-The main dashboard entry is in `gridinsight-pro-main_frontend/src/routes/index.tsx`.
+---
 
-Important implementation areas:
-- `src/routes/index.tsx` - dashboard shell and search logic
-- `src/components/gis/MapStage.tsx` - map surface, toolbar controls, and search UI
-- `src/components/gis/GisHeader.tsx` - header with update timestamp and refresh actions
-- `src/components/gis/AnalyticsPanel.tsx` - KPI cards and inspection table
-- `src/lib/grid-network.ts` - synthetic topology, hazards, and KPI data
-- `src/components/gis/GridMap.tsx` - map rendering and overlays
+## 4. Technology Stack
 
-## How the app works
+| Component | Technologies |
+|---|---|
+| Frontend | React, TypeScript, Vite |
+| Styling | Tailwind CSS |
+| UI Components | shadcn/ui |
+| Map Visualization | Leaflet, React Leaflet |
+| Charts | Recharts |
+| Icons | Lucide React |
+| Backend | Python |
+| Object Detection | YOLOv11 |
+| Deep Learning | PyTorch |
+| Graph Learning | PyTorch Geometric |
+| GIS Processing | GeoPandas, Shapely |
+| Image Processing | OpenCV, Rasterio |
+| Data Processing | Pandas, NumPy |
+| Graph Analysis | NetworkX |
+| Spatial Database (Planned) | PostgreSQL, PostGIS |
 
-The frontend builds a synthetic distribution network with:
-- substations as feeder anchors
-- poles and transformers positioned along feeder spans
-- inferred power lines with confidence-based colors
-- hazard polygons for flood and wind/cyclone exposure
+---
 
-Search is implemented to match:
-- place names such as Kalyanpur, Ennore, and Manali
-- asset identifiers and feeder names
-- voltage strings and station references
+## 5. Study Area and Dataset
 
-The app keeps the map in view while updating the selected focus based on query matches, improving usability for utility operations teams.
+### Study Area
 
-## Prerequisites
+The initial study area is Tambaram, Tamil Nadu, India.
 
-Before running the app, install:
-- Node.js 18+
-- npm (or Bun, if preferred)
+The project uses geospatial information collected from multiple sources to establish an exploratory infrastructure dataset.
 
-## Getting started
+### Dataset Sources
 
-From the repository root:
+| Dataset Source | Purpose |
+|---|---|
+| OpenStreetMap (OSM) | Substations, transformers, and power-line features |
+| REC/BharatMaps | Distribution transformer information |
+| Satellite Imagery | Visual infrastructure detection |
+| Elevation Data | Terrain and elevation analysis |
+| Flood-related Data | Infrastructure exposure analysis |
+
+### Current Dataset Summary
+
+The expanded Tambaram dataset contains the following records:
+
+| Asset Category | Count |
+|---|---:|
+| Substations | 8 |
+| Distribution Transformers | 53 |
+| Transformers with Unknown Distribution Status | 5 |
+| Poles | 0 |
+| Power-Line Features | 41 |
+| **Total Point Assets** | **66** |
+
+The 53 distribution transformers consist of:
+- 52 REC/BharatMaps transformer records.
+- 1 OSM transformer explicitly tagged as a distribution transformer.
+
+The five additional OSM transformer records have unknown distribution status and are kept separate.
+
+### Transformer Capacity Distribution
+
+The 52 REC/BharatMaps transformer records attributed to TANGEDCO have the following capacity distribution:
+
+| Capacity | Number of Transformers |
+|---|---:|
+| 100 kVA | 34 |
+| 250 kVA | 13 |
+| 500 kVA | 5 |
+| **Total** | **52** |
+
+Three pairs of transformer records are located less than one metre apart. They have been retained because they have different source IDs and should be reviewed before treating them as duplicates.
+
+### Dataset Limitations
+
+- The OSM study boundary represents Tambaram taluk and is not a government-certified municipal boundary.
+- The 41 OSM power-line features are predominantly high-voltage features (110–400 kV).
+- These power lines provide regional infrastructure context and do not represent a complete local distribution network.
+- No distribution poles or pole subclasses were identified in the current OSM dataset.
+- The coordinates are mapped coordinates in WGS84 (EPSG:4326), not field-surveyed GPS measurements.
+- The available records do not establish confirmed electrical connectivity between assets.
+- The dataset is an exploratory prototype baseline, not a complete or ground-truth representation of the TANGEDCO distribution network.
+
+---
+
+## 6. Repository Structure
+
+```text
+GridGraph/
+│
+├── data set/
+│   ├── dataset documentation/
+│   ├── OSM snapshot/
+│   ├── REC_BharatMaps transformer data/
+│   ├── exports/
+│   └── extraction scripts/
+│
+├── gridgraph-backend/
+│   └── gridgraph-backend/
+│       ├── backend/
+│       ├── tests/
+│       └── requirements.txt
+│
+├── model training/
+│   └── backend.ipynb
+│
+├── output/
+│   └── generated images/
+│
+├── gridinsight-pro-main_frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── gis/
+│   │   │       ├── MapStage.tsx
+│   │   │       ├── GisHeader.tsx
+│   │   │       ├── AnalyticsPanel.tsx
+│   │   │       └── GridMap.tsx
+│   │   │
+│   │   ├── lib/
+│   │   │   └── grid-network.ts
+│   │   │
+│   │   └── routes/
+│   │       └── index.tsx
+│   │
+│   ├── package.json
+│   └── vite.config.ts
+│
+└── README.md
+```
+
+---
+
+## 7. Getting Started
+
+### Prerequisites
+
+Install the following tools:
+
+- Node.js
+- npm
+- Python 3.10 or later
+- Git
+- Visual Studio Code
+
+### Clone the Repository
+
+```bash
+git clone <YOUR_REPOSITORY_URL>
+cd GridGraph
+```
+
+### Frontend Setup
+
+Navigate to the frontend directory:
 
 ```bash
 cd gridinsight-pro-main_frontend
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-Then open the local Vite URL printed in the terminal, typically:
+Open the local URL displayed in the terminal to access the dashboard.
 
-```text
-http://localhost:5173
-```
+### Backend Setup
 
-If you use Bun instead of npm:
+Navigate to the backend directory:
 
 ```bash
-cd gridinsight-pro-main_frontend
-bun install
-bun run dev
+cd gridgraph-backend/gridgraph-backend
 ```
 
-## Useful scripts
-
-From `gridinsight-pro-main_frontend`:
+Create a virtual environment:
 
 ```bash
-npm run dev      # start the app in development mode
-npm run build    # create a production build
-npm run preview  # preview the production build locally
-npm run lint     # run ESLint checks
-npm run format   # format the codebase with Prettier
+python -m venv venv
 ```
 
-## Data and network model
+Activate the environment.
 
-The network content is generated deterministically from synthetic geographic parameters rather than a live utility SCADA feed. This makes the app stable for demos and design validation while still mimicking realistic utility behavior.
+**Windows:**
 
-Included data concepts:
-- `GridNode` - poles, transformers, and substations
-- `GridEdge` - inferred feeder connections with confidence values
-- `FLOOD_ZONES` - flood-prone polygons
-- `CYCLONE_MODERATE` and `CYCLONE_HIGH` - wind exposure overlays
-- `KPIS` - KPI summary for the analytics panel
-- `PLACE_SEARCH_ENTRIES` - searchable location data
+```bash
+venv\Scripts\activate
+```
 
-## Notes on the backend folder
+**Linux/macOS:**
 
-The Python backend package and its tests are in `gridgraph-backend/gridgraph-backend/`; its setup and API instructions are in that directory's README. The model-training notebook is in `gridgraph-backend/model training/backend.ipynb`.
+```bash
+source venv/bin/activate
+```
 
-The `data set/` directory contains the Tambaram OSM snapshot and a separate REC/Bharatmaps transformer supplement. Read its dataset and source-review documentation before reusing or redistributing the data; retain required source attribution. The `output/` directory contains project image outputs.
+Install the dependencies:
 
-## Design intent
+```bash
+pip install -r requirements.txt
+```
 
-The interface is intended to feel like a professional utility GIS dashboard rather than a generic admin panel. The styling, card density, map overlays, KPI layout, and utility color system are tuned to resemble enterprise GIS and grid operations software.
+Run the backend using the entry point and command configured in the backend project.
 
-## License
+---
 
-This project does not currently declare a repository license in the root directory. If you intend to distribute or publish it, add a formal license file and update this section accordingly.
+## 8. AI and Machine Learning Workflow
 
-## Recommended next steps
+### 8.1 YOLOv11 – Infrastructure Detection
 
-- connect the map to real utility asset datasets
-- replace the synthetic network with authenticated GIS feeds
-- add panels for asset detail drawers and maintenance workflows
-- integrate a backend API for network refresh and hazard updates
-- add test coverage for search, prioritization, and overlay behavior
+YOLOv11 is planned for detecting visible electrical infrastructure from high-resolution satellite imagery.
 
-## Summary
+Initial target classes:
 
-GridGraph is a polished prototype for a utility digital twin: a map-rich, operationally focused dashboard for understanding network structure, hazards, and inspection priorities. It is structured as a practical front-end prototype with a notebook-based backend/data exploration companion, making it suitable for design reviews, demos, and further engineering expansion.
+- Substation
+- Distribution Transformer
+
+The detection workflow:
+
+1. Collect suitable high-resolution satellite imagery.
+2. Prepare and preprocess image tiles.
+3. Annotate visible electrical infrastructure.
+4. Create YOLO-format training labels.
+5. Train the YOLOv11 model.
+6. Evaluate detection performance.
+7. Generate predictions on unseen imagery.
+8. Convert validated detections into geospatial coordinates.
+
+### 8.2 Graph Attention Network – Topology Inference
+
+Graph Attention Networks are planned to estimate potential connectivity between electrical infrastructure assets.
+
+The graph representation includes:
+
+- Nodes: Electrical infrastructure assets.
+- Node features: Asset type, spatial coordinates, and available attributes.
+- Edges: Candidate relationships between assets.
+- GAT: Learns relationships between neighboring graph nodes.
+
+The intended workflow:
+
+1. Extract infrastructure assets from GIS data and imagery.
+2. Represent assets as graph nodes.
+3. Construct candidate edges using spatial and available infrastructure information.
+4. Generate node and edge features.
+5. Train or evaluate the GAT model using suitable connectivity labels.
+6. Predict candidate relationships.
+7. Validate predicted connections against authoritative utility records.
+
+**Important:** Spatial proximity alone does not prove electrical connectivity. Predicted connections must not be presented as confirmed electrical connections without reliable utility evidence.
+
+---
+
+## 9. Frontend Dashboard
+
+The React-based frontend provides an interactive GIS dashboard for exploring the infrastructure network.
+
+Key frontend components:
+
+| Component | Responsibility |
+|---|---|
+| `MapStage.tsx` | Main GIS map layout |
+| `GisHeader.tsx` | Dashboard header |
+| `AnalyticsPanel.tsx` | Analytics and KPI presentation |
+| `GridMap.tsx` | Map visualization |
+| `grid-network.ts` | Network and map data utilities |
+| `index.tsx` | Application route |
+
+### Current Frontend Data Behaviour
+
+The current frontend includes deterministic synthetic utility-network and hazard/KPI data for dashboard demonstration.
+
+These synthetic records are used to demonstrate the interface and visualization workflow. They must not be interpreted as verified TANGEDCO infrastructure records or actual electrical connectivity.
+
+Integration with the real geospatial dataset and validated AI outputs is part of the ongoing development.
+
+---
+
+## 10. Current Development Status
+
+| Module | Status |
+|---|---|
+| Tambaram GIS Dataset Collection | Initial dataset prepared |
+| OSM Data Processing | Available |
+| REC/BharatMaps Integration | Initial integration completed |
+| Interactive GIS Dashboard | Developed |
+| Synthetic Network Visualization | Available |
+| YOLOv11 Training Pipeline | In development |
+| Satellite Image Annotation | Required |
+| GAT Topology Inference | In development |
+| Utility Connectivity Validation | Pending authoritative data |
+| Flood-Risk Analysis | Under development |
+| PostGIS Integration | Planned |
+| Complete Digital Twin | Future development |
+
+---
+
+## 11. Future Enhancements
+
+- Integrate additional verified electrical infrastructure datasets.
+- Collect and annotate high-resolution satellite imagery.
+- Train and evaluate YOLOv11 for infrastructure detection.
+- Develop GAT-based topology inference.
+- Integrate authoritative feeder and connectivity information.
+- Implement PostgreSQL with PostGIS for spatial data management.
+- Improve flood exposure and infrastructure vulnerability analysis.
+- Add network-level analytics and inspection prioritization.
+- Develop a validated, continuously updated digital twin.
+
+---
+
+## 12. Expected Applications
+
+GridGraph aims to support:
+
+- Electrical infrastructure mapping.
+- Distribution network visualization.
+- Geospatial asset management.
+- Potential network connectivity analysis.
+- Infrastructure monitoring.
+- Flood-risk assessment.
+- Maintenance and inspection prioritization.
+- Digital twin development for power distribution systems.
+
+---
+
+## 13. Data Attribution
+
+The project uses or plans to use geospatial information from:
+
+- OpenStreetMap contributors.
+- REC/BharatMaps datasets.
+- Suitable satellite imagery sources.
+- Publicly available elevation and environmental datasets.
+
+Data usage, licensing, attribution, and redistribution requirements must be checked for each source before publication or commercial use.
+
+---
+
+## 14. Disclaimer
+
+GridGraph is an academic and research-oriented prototype.
+
+The current dataset is incomplete and does not represent the complete electrical distribution infrastructure of Tambaram. The dashboard's synthetic network and hazard information are intended for demonstration.
+
+AI-generated asset detections and topology predictions require validation. The system is not intended to replace official utility GIS records, engineering surveys, or operational network diagrams.
+
+---
+
+## 15. Project Vision
+
+The long-term vision of GridGraph is to develop an AI-powered geospatial digital twin that transforms fragmented electrical infrastructure information into an intelligent, connected, and interactive network representation.
+
+By combining computer vision, graph neural networks, and GIS technologies, GridGraph aims to support more informed infrastructure mapping, analysis, monitoring, and risk-aware decision-making.
