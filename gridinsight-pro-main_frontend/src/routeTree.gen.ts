@@ -10,33 +10,115 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AnalyticsRouteImport } from './routes/analytics'
+import { Route as AssetsRouteImport } from './routes/assets'
+import { Route as HazardsRouteImport } from './routes/hazards'
+import { Route as NetworkRouteImport } from './routes/network'
+import { Route as ReportsRouteImport } from './routes/reports'
+import { Route as RoleManagementRouteImport } from './routes/role-management'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AnalyticsRoute = AnalyticsRouteImport.update({
+  id: '/analytics',
+  path: '/analytics',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AssetsRoute = AssetsRouteImport.update({
+  id: '/assets',
+  path: '/assets',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HazardsRoute = HazardsRouteImport.update({
+  id: '/hazards',
+  path: '/hazards',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NetworkRoute = NetworkRouteImport.update({
+  id: '/network',
+  path: '/network',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReportsRoute = ReportsRouteImport.update({
+  id: '/reports',
+  path: '/reports',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RoleManagementRoute = RoleManagementRouteImport.update({
+  id: '/role-management',
+  path: '/role-management',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/analytics': typeof AnalyticsRoute
+  '/assets': typeof AssetsRoute
+  '/hazards': typeof HazardsRoute
+  '/network': typeof NetworkRoute
+  '/reports': typeof ReportsRoute
+  '/role-management': typeof RoleManagementRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/analytics': typeof AnalyticsRoute
+  '/assets': typeof AssetsRoute
+  '/hazards': typeof HazardsRoute
+  '/network': typeof NetworkRoute
+  '/reports': typeof ReportsRoute
+  '/role-management': typeof RoleManagementRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/analytics': typeof AnalyticsRoute
+  '/assets': typeof AssetsRoute
+  '/hazards': typeof HazardsRoute
+  '/network': typeof NetworkRoute
+  '/reports': typeof ReportsRoute
+  '/role-management': typeof RoleManagementRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/analytics'
+    | '/assets'
+    | '/hazards'
+    | '/network'
+    | '/reports'
+    | '/role-management'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/analytics'
+    | '/assets'
+    | '/hazards'
+    | '/network'
+    | '/reports'
+    | '/role-management'
+  id:
+    | '__root__'
+    | '/'
+    | '/analytics'
+    | '/assets'
+    | '/hazards'
+    | '/network'
+    | '/reports'
+    | '/role-management'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AnalyticsRoute: typeof AnalyticsRoute
+  AssetsRoute: typeof AssetsRoute
+  HazardsRoute: typeof HazardsRoute
+  NetworkRoute: typeof NetworkRoute
+  ReportsRoute: typeof ReportsRoute
+  RoleManagementRoute: typeof RoleManagementRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +130,59 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/analytics': {
+      id: '/analytics'
+      path: '/analytics'
+      fullPath: '/analytics'
+      preLoaderRoute: typeof AnalyticsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/assets': {
+      id: '/assets'
+      path: '/assets'
+      fullPath: '/assets'
+      preLoaderRoute: typeof AssetsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hazards': {
+      id: '/hazards'
+      path: '/hazards'
+      fullPath: '/hazards'
+      preLoaderRoute: typeof HazardsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/network': {
+      id: '/network'
+      path: '/network'
+      fullPath: '/network'
+      preLoaderRoute: typeof NetworkRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/reports': {
+      id: '/reports'
+      path: '/reports'
+      fullPath: '/reports'
+      preLoaderRoute: typeof ReportsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/role-management': {
+      id: '/role-management'
+      path: '/role-management'
+      fullPath: '/role-management'
+      preLoaderRoute: typeof RoleManagementRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AnalyticsRoute: AnalyticsRoute,
+  AssetsRoute: AssetsRoute,
+  HazardsRoute: HazardsRoute,
+  NetworkRoute: NetworkRoute,
+  ReportsRoute: ReportsRoute,
+  RoleManagementRoute: RoleManagementRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   BarChart3,
   ChevronDown,
@@ -9,33 +8,37 @@ import {
   Share2,
   TriangleAlert,
 } from "lucide-react";
+import { useLocation, useNavigate } from "@tanstack/react-router";
 import { cn } from "@/lib/utils";
 
 const ITEMS = [
-  { key: "overview", label: "Overview", Icon: Home },
-  { key: "assets", label: "Assets", Icon: Database },
-  { key: "network", label: "Network", Icon: Share2 },
-  { key: "hazards", label: "Hazards", Icon: TriangleAlert },
-  { key: "analytics", label: "Analytics", Icon: BarChart3 },
-  { key: "reports", label: "Reports", Icon: FileText },
-  { key: "settings", label: "Settings", Icon: Settings },
-];
+  { key: "overview", label: "Overview", path: "/", Icon: Home },
+  { key: "assets", label: "Assets", path: "/assets", Icon: Database },
+  { key: "network", label: "Network", path: "/network", Icon: Share2 },
+  { key: "hazards", label: "Hazards", path: "/hazards", Icon: TriangleAlert },
+  { key: "analytics", label: "Analytics", path: "/analytics", Icon: BarChart3 },
+  { key: "reports", label: "Reports", path: "/reports", Icon: FileText },
+  { key: "settings", label: "Settings", path: "/role-management", Icon: Settings },
+] as const;
 
 export default function GisSidebar() {
-  const [active, setActive] = useState("overview");
+  const location = useLocation();
+  const navigate = useNavigate();
 
   return (
     <nav className="flex w-20 shrink-0 flex-col items-center bg-navy py-4 text-navy-foreground">
-      {ITEMS.map(({ key, label, Icon }) => {
-        const isActive = key === active;
+      {ITEMS.map(({ key, label, path, Icon }) => {
+        const isActive = location.pathname === path;
         return (
           <button
             key={key}
             type="button"
-            onClick={() => setActive(key)}
+            onClick={() => void navigate({ to: path })}
             className={cn(
               "relative flex w-full flex-col items-center gap-1 py-3.5 transition-colors duration-200",
-              isActive ? "bg-navy-active text-navy-foreground" : "text-navy-muted hover:text-navy-foreground",
+              isActive
+                ? "bg-navy-active text-navy-foreground"
+                : "text-navy-muted hover:text-navy-foreground",
             )}
           >
             {isActive && (
