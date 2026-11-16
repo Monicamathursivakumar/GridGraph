@@ -1,0 +1,1929 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2079824,
+            12.8876779
+          ],
+          [
+            80.2074469,
+            12.8865732
+          ],
+          [
+            80.2069992,
+            12.8858426
+          ],
+          [
+            80.2060684,
+            12.8843234
+          ],
+          [
+            80.2040637,
+            12.882152
+          ],
+          [
+            80.2020877,
+            12.8823251
+          ],
+          [
+            80.2017396,
+            12.8823556
+          ],
+          [
+            80.2016139,
+            12.8807288
+          ],
+          [
+            80.2015734,
+            12.8785421
+          ],
+          [
+            80.2012562,
+            12.8758882
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-247545796",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 247545796,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "6",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/247545796",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2132894,
+            12.9022397
+          ],
+          [
+            80.2117985,
+            12.9007488
+          ],
+          [
+            80.2102342,
+            12.8991788
+          ],
+          [
+            80.208557,
+            12.8975009
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-247545806",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 247545806,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "6",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/247545806",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1712375,
+            12.886878
+          ],
+          [
+            80.1701316,
+            12.8887359
+          ],
+          [
+            80.1694178,
+            12.8906099
+          ],
+          [
+            80.1677279,
+            12.8923025
+          ],
+          [
+            80.1664563,
+            12.8939686
+          ],
+          [
+            80.1647362,
+            12.895472
+          ],
+          [
+            80.1643589,
+            12.897002
+          ],
+          [
+            80.164337,
+            12.9002007
+          ],
+          [
+            80.1637217,
+            12.90188
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-247545830",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 247545830,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "6",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/247545830",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2050032,
+            12.8947073
+          ],
+          [
+            80.203241,
+            12.8952093
+          ],
+          [
+            80.2016357,
+            12.8952511
+          ],
+          [
+            80.1999392,
+            12.8956616
+          ],
+          [
+            80.1989374,
+            12.8940759
+          ],
+          [
+            80.1991613,
+            12.8930967
+          ],
+          [
+            80.1995274,
+            12.8907815
+          ],
+          [
+            80.1984894,
+            12.8899357
+          ],
+          [
+            80.1982333,
+            12.8877786
+          ],
+          [
+            80.1978189,
+            12.882127
+          ],
+          [
+            80.1993571,
+            12.8800431
+          ],
+          [
+            80.2012601,
+            12.8780729
+          ],
+          [
+            80.2012562,
+            12.8758882
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-959123781",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 959123781,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "6",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/959123781",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2087338,
+            12.897433
+          ],
+          [
+            80.2085885,
+            12.8959237
+          ],
+          [
+            80.2086974,
+            12.8930789
+          ],
+          [
+            80.2086301,
+            12.8903891
+          ],
+          [
+            80.2086294,
+            12.8900933
+          ],
+          [
+            80.2086432,
+            12.8898603
+          ],
+          [
+            80.2085397,
+            12.8895788
+          ],
+          [
+            80.2084198,
+            12.8895085
+          ],
+          [
+            80.2080444,
+            12.8879897
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-959123782",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 959123782,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "6",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/959123782",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2079824,
+            12.8876779
+          ],
+          [
+            80.2087408,
+            12.887623
+          ],
+          [
+            80.2104829,
+            12.8873929
+          ],
+          [
+            80.211018,
+            12.8873106
+          ],
+          [
+            80.2107123,
+            12.8866844
+          ],
+          [
+            80.2112997,
+            12.8849077
+          ],
+          [
+            80.2108142,
+            12.8825532
+          ],
+          [
+            80.2104481,
+            12.8809059
+          ],
+          [
+            80.2101222,
+            12.8798496
+          ],
+          [
+            80.2085383,
+            12.8798352
+          ],
+          [
+            80.2066997,
+            12.8798914
+          ],
+          [
+            80.2065521,
+            12.8800051
+          ],
+          [
+            80.2063711,
+            12.8800352
+          ],
+          [
+            80.206241,
+            12.8799411
+          ],
+          [
+            80.2057931,
+            12.8798679
+          ],
+          [
+            80.2058735,
+            12.880349
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-959123784",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 959123784,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "6",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/959123784",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1927589,
+            12.8507133
+          ],
+          [
+            80.1932886,
+            12.8505943
+          ],
+          [
+            80.1945171,
+            12.851558
+          ],
+          [
+            80.1963866,
+            12.8537847
+          ],
+          [
+            80.1963879,
+            12.8547234
+          ],
+          [
+            80.1964429,
+            12.8563029
+          ],
+          [
+            80.1964778,
+            12.8578313
+          ],
+          [
+            80.1971698,
+            12.8606188
+          ],
+          [
+            80.1967514,
+            12.8631893
+          ],
+          [
+            80.1971142,
+            12.8648428
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-959123786",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 959123786,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "6",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/959123786",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2133637,
+            12.9066929
+          ],
+          [
+            80.2135755,
+            12.9092949
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-959123792",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 959123792,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "12",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/959123792",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1930128,
+            12.8539844
+          ],
+          [
+            80.19309,
+            12.8539021
+          ],
+          [
+            80.1932334,
+            12.8537493
+          ],
+          [
+            80.1939946,
+            12.8529382
+          ],
+          [
+            80.1941302,
+            12.8527938
+          ],
+          [
+            80.1942252,
+            12.8526926
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247803",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247803,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247803",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1932086,
+            12.854136
+          ],
+          [
+            80.1935775,
+            12.8537424
+          ],
+          [
+            80.1937095,
+            12.8536016
+          ],
+          [
+            80.1938768,
+            12.8534231
+          ],
+          [
+            80.1939976,
+            12.8532942
+          ],
+          [
+            80.1944022,
+            12.8528625
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247804",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247804,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247804",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1935775,
+            12.8537424
+          ],
+          [
+            80.1929189,
+            12.8531502
+          ],
+          [
+            80.1926185,
+            12.8534797
+          ],
+          [
+            80.19309,
+            12.8539021
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247805",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247805,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247805",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1932334,
+            12.8537493
+          ],
+          [
+            80.1938604,
+            12.8543243
+          ],
+          [
+            80.1941554,
+            12.8540131
+          ],
+          [
+            80.1937095,
+            12.8536016
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247806",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247806,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247806",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1938768,
+            12.8534231
+          ],
+          [
+            80.194319,
+            12.8538275
+          ],
+          [
+            80.1946275,
+            12.8535137
+          ],
+          [
+            80.1939946,
+            12.8529382
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247807",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247807,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247807",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1941302,
+            12.8527938
+          ],
+          [
+            80.1936646,
+            12.8523683
+          ],
+          [
+            80.1933534,
+            12.852703
+          ],
+          [
+            80.1939976,
+            12.8532942
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247808",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247808,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247808",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1938604,
+            12.8543243
+          ],
+          [
+            80.194252,
+            12.8546747
+          ],
+          [
+            80.1947239,
+            12.8548439
+          ],
+          [
+            80.1945443,
+            12.8543714
+          ],
+          [
+            80.1941554,
+            12.8540131
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247809",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247809,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247809",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.194319,
+            12.8538275
+          ],
+          [
+            80.194716,
+            12.8541936
+          ],
+          [
+            80.1951745,
+            12.8543261
+          ],
+          [
+            80.1950191,
+            12.8538693
+          ],
+          [
+            80.1946275,
+            12.8535137
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247810",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247810,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247810",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1947239,
+            12.8548439
+          ],
+          [
+            80.1952577,
+            12.8547184
+          ],
+          [
+            80.1957737,
+            12.8542998
+          ],
+          [
+            80.1951745,
+            12.8543261
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247811",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247811,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "6",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247811",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1936646,
+            12.8523683
+          ],
+          [
+            80.1933964,
+            12.8521329
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247812",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247812,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247812",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1930879,
+            12.8524546
+          ],
+          [
+            80.1933534,
+            12.852703
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247813",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247813,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247813",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1929189,
+            12.8531502
+          ],
+          [
+            80.192648,
+            12.852907
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247814",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247814,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "400000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "400000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247814",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1933837,
+            12.8513377
+          ],
+          [
+            80.1932083,
+            12.8511811
+          ],
+          [
+            80.1931122,
+            12.8512834
+          ],
+          [
+            80.1930137,
+            12.8513883
+          ],
+          [
+            80.1929086,
+            12.8515002
+          ],
+          [
+            80.1928107,
+            12.8516045
+          ],
+          [
+            80.192719,
+            12.8517021
+          ],
+          [
+            80.1926137,
+            12.8518144
+          ],
+          [
+            80.19251,
+            12.8519248
+          ],
+          [
+            80.192413,
+            12.8520281
+          ],
+          [
+            80.1925886,
+            12.8521848
+          ],
+          [
+            80.1926821,
+            12.8520852
+          ],
+          [
+            80.1927886,
+            12.8519718
+          ],
+          [
+            80.1928937,
+            12.8518598
+          ],
+          [
+            80.1929821,
+            12.8517656
+          ],
+          [
+            80.1930849,
+            12.8516561
+          ],
+          [
+            80.1931886,
+            12.8515456
+          ],
+          [
+            80.1932859,
+            12.8514419
+          ],
+          [
+            80.1933837,
+            12.8513377
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247815",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247815,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247815",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.192648,
+            12.852907
+          ],
+          [
+            80.1924093,
+            12.8526821
+          ],
+          [
+            80.192339,
+            12.8526164
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247816",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247816,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247816",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1926821,
+            12.8520852
+          ],
+          [
+            80.1928492,
+            12.8522428
+          ],
+          [
+            80.1930879,
+            12.8524546
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247817",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247817,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247817",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1933964,
+            12.8521329
+          ],
+          [
+            80.1931442,
+            12.8519107
+          ],
+          [
+            80.1929821,
+            12.8517656
+          ],
+          [
+            80.1928107,
+            12.8516045
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247818",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247818,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247818",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1932083,
+            12.8511811
+          ],
+          [
+            80.1930048,
+            12.8510006
+          ],
+          [
+            80.1927589,
+            12.8507133
+          ],
+          [
+            80.1929055,
+            12.8510922
+          ],
+          [
+            80.1931122,
+            12.8512834
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247819",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247819,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247819",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1930137,
+            12.8513883
+          ],
+          [
+            80.1928143,
+            12.8512098
+          ],
+          [
+            80.1924531,
+            12.8510036
+          ],
+          [
+            80.1927124,
+            12.8513223
+          ],
+          [
+            80.1929086,
+            12.8515002
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247820",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247820,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247820",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.192719,
+            12.8517021
+          ],
+          [
+            80.1925273,
+            12.8515341
+          ],
+          [
+            80.1921473,
+            12.8513161
+          ],
+          [
+            80.1924147,
+            12.8516361
+          ],
+          [
+            80.1926137,
+            12.8518144
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247821",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247821,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247821",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1931122,
+            12.8512834
+          ],
+          [
+            80.1932859,
+            12.8514419
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247822",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247822,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247822",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1929086,
+            12.8515002
+          ],
+          [
+            80.1930849,
+            12.8516561
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247823",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247823,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247823",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1931886,
+            12.8515456
+          ],
+          [
+            80.1930137,
+            12.8513883
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247824",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247824,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247824",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1926821,
+            12.8520852
+          ],
+          [
+            80.19251,
+            12.8519248
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247825",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247825,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247825",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1928937,
+            12.8518598
+          ],
+          [
+            80.192719,
+            12.8517021
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247826",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247826,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247826",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1926137,
+            12.8518144
+          ],
+          [
+            80.1927886,
+            12.8519718
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247827",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247827,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "220000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "220000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247827",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1918422,
+            12.8528653
+          ],
+          [
+            80.1919857,
+            12.8529932
+          ],
+          [
+            80.1922866,
+            12.8526722
+          ],
+          [
+            80.192339,
+            12.8526164
+          ],
+          [
+            80.1923949,
+            12.8525567
+          ],
+          [
+            80.1922513,
+            12.8524288
+          ],
+          [
+            80.1921975,
+            12.8524863
+          ],
+          [
+            80.1921425,
+            12.852545
+          ],
+          [
+            80.1918422,
+            12.8528653
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247828",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247828,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247828",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1917951,
+            12.8521016
+          ],
+          [
+            80.1919828,
+            12.8523971
+          ],
+          [
+            80.1921425,
+            12.852545
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247829",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247829,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247829",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.192339,
+            12.8526164
+          ],
+          [
+            80.1921975,
+            12.8524863
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247830",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247830,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247830",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1922866,
+            12.8526722
+          ],
+          [
+            80.1921425,
+            12.852545
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247831",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247831,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247831",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1914008,
+            12.8520806
+          ],
+          [
+            80.1915832,
+            12.8524284
+          ],
+          [
+            80.1916905,
+            12.8527292
+          ],
+          [
+            80.1918422,
+            12.8528653
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247832",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247832,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247832",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1917951,
+            12.8521016
+          ],
+          [
+            80.1914008,
+            12.8520806
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247833",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247833,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "6",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247833",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1922513,
+            12.8524288
+          ],
+          [
+            80.1920996,
+            12.8522835
+          ],
+          [
+            80.1917951,
+            12.8521016
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247834",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247834,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "cables": "3",
+          "power": "line",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247834",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1914437,
+            12.8529253
+          ],
+          [
+            80.1929802,
+            12.8544554
+          ],
+          [
+            80.1940775,
+            12.8552335
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1443247835",
+        "infrastructure_class": "power_line",
+        "osm_element_type": "way",
+        "osm_id": 1443247835,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "",
+        "osm_tags": {
+          "power": "line"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1443247835",
+        "coordinate_extraction_method": "Full OSM way vertex geometry",
+        "verification_status": "source_tag_present_not_field_verified",
+        "remarks": "OSM-mapped line geometry; topology, voltage, and physical presence are not independently field-verified."
+      }
+    }
+  ]
+}

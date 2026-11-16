@@ -1,0 +1,5 @@
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+gridinsight-pro-main_frontend/node_modules/
+gridinsight-pro-main_frontend/dist/

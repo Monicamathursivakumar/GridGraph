@@ -1,0 +1,29 @@
+{
+  "collected_at_utc": "2026-11-11T10:21:06+00:00",
+  "source_collection_timestamps_utc": {
+    "osm_overpass_snapshot": "2026-11-11T08:59:00+00:00",
+    "rec_bharatmaps_extraction": "2026-11-11T10:21:06+00:00"
+  },
+  "asset_count": 66,
+  "asset_class_counts": {
+    "substation": 8,
+    "distribution_transformer": 53,
+    "transformer_unclassified": 5,
+    "pole_unclassified": 0,
+    "tangent_pole": 0,
+    "angle_pole": 0,
+    "dead_end_pole": 0,
+    "junction_pole": 0
+  },
+  "record_counts_by_source": {
+    "OpenStreetMap via Overpass API": 14,
+    "REC/Bharatmaps, packaged in ramSeraph/indian_power_infra": 52
+  },
+  "source_layers": [
+    "OpenStreetMap via Overpass API",
+    "REC/Bharatmaps transformer inventory via ramSeraph/indian_power_infra"
+  ],
+  "spatial_deduplication": "No cross-source spatial records were merged. Source IDs remain namespaced; near-coincident REC records are flagged.",
+  "power_lines_file": "tambaram_power_lines.geojson",
+  "coordinate_reference_system": "EPSG:4326"
+}

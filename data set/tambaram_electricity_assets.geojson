@@ -1,0 +1,452 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0968086,
+          12.9040853
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-node-2482314383",
+        "infrastructure_class": "transformer_unclassified",
+        "osm_element_type": "node",
+        "osm_id": 2482314383,
+        "latitude": 12.9040853,
+        "longitude": 80.0968086,
+        "asset_name": "Electricy Board",
+        "electricity_operator": "",
+        "voltage": "",
+        "osm_tags": {
+          "name": "Electricy Board",
+          "power": "transformer"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/node/2482314383",
+        "coordinate_extraction_method": "OSM node lat/lon",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "medium",
+        "verification_evidence": "OSM power=transformer tag; distribution status is not tagged.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.192648,
+          12.852907
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-node-13243484994",
+        "infrastructure_class": "transformer_unclassified",
+        "osm_element_type": "node",
+        "osm_id": 13243484994,
+        "latitude": 12.852907,
+        "longitude": 80.192648,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "",
+        "osm_tags": {
+          "power": "transformer"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/node/13243484994",
+        "coordinate_extraction_method": "OSM node lat/lon",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "medium",
+        "verification_evidence": "OSM power=transformer tag; distribution status is not tagged.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1930879,
+          12.8524546
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-node-13243484995",
+        "infrastructure_class": "transformer_unclassified",
+        "osm_element_type": "node",
+        "osm_id": 13243484995,
+        "latitude": 12.8524546,
+        "longitude": 80.1930879,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "",
+        "osm_tags": {
+          "power": "transformer"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/node/13243484995",
+        "coordinate_extraction_method": "OSM node lat/lon",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "medium",
+        "verification_evidence": "OSM power=transformer tag; distribution status is not tagged.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1933964,
+          12.8521329
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-node-13243484996",
+        "infrastructure_class": "transformer_unclassified",
+        "osm_element_type": "node",
+        "osm_id": 13243484996,
+        "latitude": 12.8521329,
+        "longitude": 80.1933964,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "",
+        "osm_tags": {
+          "power": "transformer"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/node/13243484996",
+        "coordinate_extraction_method": "OSM node lat/lon",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "medium",
+        "verification_evidence": "OSM power=transformer tag; distribution status is not tagged.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1344086,
+          12.9379673
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-node-13867107796",
+        "infrastructure_class": "distribution_transformer",
+        "osm_element_type": "node",
+        "osm_id": 13867107796,
+        "latitude": 12.9379673,
+        "longitude": 80.1344086,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "",
+        "osm_tags": {
+          "location": "outdoor",
+          "power": "transformer",
+          "transformer": "distribution"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/node/13867107796",
+        "coordinate_extraction_method": "OSM node lat/lon",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "high",
+        "verification_evidence": "OSM power=transformer and transformer=distribution tags; no field or imagery verification.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1353352,
+          12.9376803
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-node-13984472121",
+        "infrastructure_class": "transformer_unclassified",
+        "osm_element_type": "node",
+        "osm_id": 13984472121,
+        "latitude": 12.9376803,
+        "longitude": 80.1353352,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "",
+        "osm_tags": {
+          "power": "transformer"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/node/13984472121",
+        "coordinate_extraction_method": "OSM node lat/lon",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "medium",
+        "verification_evidence": "OSM power=transformer tag; distribution status is not tagged.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1871146,
+          12.9418717
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-179249267",
+        "infrastructure_class": "substation",
+        "osm_element_type": "way",
+        "osm_id": 179249267,
+        "latitude": 12.9418717,
+        "longitude": 80.1871146,
+        "asset_name": "Kovilam Palkam",
+        "electricity_operator": "",
+        "voltage": "",
+        "osm_tags": {
+          "name": "Kovilam Palkam",
+          "power": "substation"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/179249267",
+        "coordinate_extraction_method": "Overpass center of OSM way/relation",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "high",
+        "verification_evidence": "OSM power=substation tag; no field or imagery verification.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1218398,
+          12.9380645
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-247337930",
+        "infrastructure_class": "substation",
+        "osm_element_type": "way",
+        "osm_id": 247337930,
+        "latitude": 12.9380645,
+        "longitude": 80.1218398,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "power": "substation",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/247337930",
+        "coordinate_extraction_method": "Overpass center of OSM way/relation",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "high",
+        "verification_evidence": "OSM power=substation tag; no field or imagery verification.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1634417,
+          12.9024193
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-247545783",
+        "infrastructure_class": "substation",
+        "osm_element_type": "way",
+        "osm_id": 247545783,
+        "latitude": 12.9024193,
+        "longitude": 80.1634417,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "power": "substation",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/247545783",
+        "coordinate_extraction_method": "Overpass center of OSM way/relation",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "high",
+        "verification_evidence": "OSM power=substation tag; no field or imagery verification.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2085418,
+          12.8968789
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-247545815",
+        "infrastructure_class": "substation",
+        "osm_element_type": "way",
+        "osm_id": 247545815,
+        "latitude": 12.8968789,
+        "longitude": 80.2085418,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "",
+        "osm_tags": {
+          "power": "substation"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/247545815",
+        "coordinate_extraction_method": "Overpass center of OSM way/relation",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "high",
+        "verification_evidence": "OSM power=substation tag; no field or imagery verification.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2055293,
+          12.8801473
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-959123779",
+        "infrastructure_class": "substation",
+        "osm_element_type": "way",
+        "osm_id": 959123779,
+        "latitude": 12.8801473,
+        "longitude": 80.2055293,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "power": "substation",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/959123779",
+        "coordinate_extraction_method": "Overpass center of OSM way/relation",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "high",
+        "verification_evidence": "OSM power=substation tag; no field or imagery verification.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1016218,
+          12.9291287
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1045532471",
+        "infrastructure_class": "substation",
+        "osm_element_type": "way",
+        "osm_id": 1045532471,
+        "latitude": 12.9291287,
+        "longitude": 80.1016218,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "110000",
+        "osm_tags": {
+          "power": "substation",
+          "voltage": "110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1045532471",
+        "coordinate_extraction_method": "Overpass center of OSM way/relation",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "high",
+        "verification_evidence": "OSM power=substation tag; no field or imagery verification.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1935294,
+          12.8528164
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1066036368",
+        "infrastructure_class": "substation",
+        "osm_element_type": "way",
+        "osm_id": 1066036368,
+        "latitude": 12.8528164,
+        "longitude": 80.1935294,
+        "asset_name": "Ottiyambakkam Substation",
+        "electricity_operator": "TANTRANSCO",
+        "voltage": "400000;220000;110000",
+        "osm_tags": {
+          "name": "Ottiyambakkam Substation",
+          "operator": "TANTRANSCO",
+          "operator:wikidata": "Q17074936",
+          "power": "substation",
+          "substation": "transmission",
+          "voltage": "400000;220000;110000"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1066036368",
+        "coordinate_extraction_method": "Overpass center of OSM way/relation",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "high",
+        "verification_evidence": "OSM power=substation tag; no field or imagery verification.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0906512,
+          12.8972728
+        ]
+      },
+      "properties": {
+        "asset_id": "osm-way-1467381343",
+        "infrastructure_class": "substation",
+        "osm_element_type": "way",
+        "osm_id": 1467381343,
+        "latitude": 12.8972728,
+        "longitude": 80.0906512,
+        "asset_name": "",
+        "electricity_operator": "",
+        "voltage": "",
+        "osm_tags": {
+          "power": "substation"
+        },
+        "data_source": "OpenStreetMap via Overpass API",
+        "direct_source_url": "https://www.openstreetmap.org/way/1467381343",
+        "coordinate_extraction_method": "Overpass center of OSM way/relation",
+        "verification_status": "source_tag_present_not_field_verified",
+        "classification_confidence": "high",
+        "verification_evidence": "OSM power=substation tag; no field or imagery verification.",
+        "remarks": "OSM-mapped coordinate; not surveyed GPS. Physical presence and operator are not independently verified."
+      }
+    }
+  ]
+}

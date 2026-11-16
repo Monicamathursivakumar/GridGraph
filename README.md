@@ -4,7 +4,9 @@ GridGraph is a utility-focused GIS dashboard for exploring a power distribution 
 
 This repository currently contains:
 - a React + TypeScript frontend dashboard for the GIS experience
-- a notebook-based backend/data exploration workspace for network and analytics prototyping
+- a Python backend for network analysis, hazard scoring, and API access
+- source-documented Tambaram infrastructure data and model-training materials
+- generated output images for the project
 
 ## Overview
 
@@ -77,8 +79,18 @@ Architecture pattern:
 ```text
 gridinsight-pro-main/
 |-- README.md
-|-- backend/
-|   `-- backend.ipynb
+|-- data set/
+|   |-- DATASET_README.md
+|   |-- INDIAN_POWER_INFRA_SOURCE_REVIEW.md
+|   `-- source data, exports, and extraction scripts
+|-- gridgraph-backend/
+|   |-- gridgraph-backend/
+|   |   |-- gridgraph/
+|   |   |-- tests/
+|   |   `-- requirements.txt
+|   `-- model training/backend.ipynb
+|-- output/
+|   `-- generated image files
 |-- gridinsight-pro-main_frontend/
 |   |-- AGENTS.md
 |   |-- README.md
@@ -184,7 +196,9 @@ Included data concepts:
 
 ## Notes on the backend folder
 
-`backend/backend.ipynb` provides a notebook-based exploration area for data and analytics workflows. It is not the primary application runtime; the frontend dashboard is the live product interface.
+The Python backend package and its tests are in `gridgraph-backend/gridgraph-backend/`; its setup and API instructions are in that directory's README. The model-training notebook is in `gridgraph-backend/model training/backend.ipynb`.
+
+The `data set/` directory contains the Tambaram OSM snapshot and a separate REC/Bharatmaps transformer supplement. Read its dataset and source-review documentation before reusing or redistributing the data; retain required source attribution. The `output/` directory contains project image outputs.
 
 ## Design intent
 

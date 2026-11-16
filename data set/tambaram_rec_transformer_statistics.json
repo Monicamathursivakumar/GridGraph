@@ -1,0 +1,27 @@
+{
+  "collected_at_utc": "2026-11-11T10:21:06+00:00",
+  "study_area": "study_area.geojson",
+  "source_row_count": 535624,
+  "records_inside_study_area": 52,
+  "records_rejected_outside_boundary": 535572,
+  "records_rejected_missing_or_invalid_coordinates": 0,
+  "unique_source_ids": 52,
+  "infrastructure_class_counts": {
+    "distribution_transformer": 52
+  },
+  "capacity_kva_counts": {
+    "100": 34,
+    "250": 13,
+    "500": 5
+  },
+  "possible_near_coincident_record_pairs_under_1m": 3,
+  "source_record_updated_date_counts": {
+    "2023-06-27": 52
+  },
+  "source_file": "https://github.com/ramSeraph/indian_power_infra/releases/download/transformers/Bharatmaps_REC_Transformers.parquet",
+  "source_file_sha256": "90b9b420a4afb8deac46482b05419a8b4a6e139b09cba25e85d55ab9672fc0b4",
+  "repository_release": "https://github.com/ramSeraph/indian_power_infra/releases/tag/transformers",
+  "official_source": "https://gisservrsdiv.nic.in/bharatmaps/rest/services/REC_New/MapServer",
+  "source_record_date_fields": "date_updated is null for all selected records; updatedonmmddyyyy is retained as a date in source_attributes and normalized to ISO date in source_record_updated.",
+  "coordinate_reference_system": "OGC:CRS84 (WGS84 longitude/latitude; GeoParquet default because the CRS member is absent)"
+}

@@ -1,0 +1,22 @@
+{
+  "collected_at_utc": "2026-11-11T08:59:00+00:00",
+  "study_area_osm_relation": 10326121,
+  "asset_count": 14,
+  "asset_class_counts": {
+    "transformer_unclassified": 5,
+    "distribution_transformer": 1,
+    "substation": 8
+  },
+  "raw_asset_candidates_by_tag": {
+    "power=substation": 9,
+    "power=transformer": 6,
+    "power=pole": 0
+  },
+  "rejected_asset_candidates": {
+    "outside_study_polygon": 1
+  },
+  "power_line_features": 41,
+  "power_line_features_rejected": 26,
+  "coordinate_crs": "EPSG:4326",
+  "source": "OpenStreetMap via Overpass API"
+}
